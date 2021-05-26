@@ -6,12 +6,12 @@
 첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답이다.
 */
 
-import java.util.Scanner;
+import java.util.Scanner; // 스캐너를 사용하기 위해
 
-public class Main{
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        int A, B;
+public class Main{ // Main 클래스 정의
+    public static void main(String[] args){ // main() 메소드
+        Scanner scanner = new Scanner(System.in); // 스캐너 scanner 생성
+        int A, B; // 변수 선언
         
         A=scanner.nextInt();
         B=scanner.nextInt();
