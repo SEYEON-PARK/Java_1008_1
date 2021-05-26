@@ -14,7 +14,7 @@ public class Main{ // Main 클래스 정의
         int A, B; // 변수 선언
         
         A=scanner.nextInt(); // 사용자로부터 정수 입력받기
-        B=scanner.nextInt();
+        B=scanner.nextInt(); // 사용자로부터 정수 입력받기
         
         System.out.println((double)A/B); // 결과 출력하기
     }
